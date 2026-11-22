@@ -7,15 +7,16 @@
   <link rel="icon" href="https://sau.int/wp-content/themes/sau/images/sau_logo.gif" type="image/gif">
   <meta name="description" content="Machine Learning Lab at South Asian University: research, projects, learning and collaboration.">
   <title>Home | Machine Learning Lab · SAU</title>
-  <link rel="stylesheet" href="/style.css">
-  <script src="script.js" defer></script>
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/script.js" defer></script>
 </head>
 <body>
 <div class="university-strip"><div class="institution-inner"><span>A university established by the SAARC nations</span><a href="https://sau.int/" target="_blank" rel="noopener">Official SAU website ↗</a></div></div>
 <header class="site-header">
   <nav class="nav-container" aria-label="Main navigation">
     <a class="brand-lockup" href="index.html" aria-label="Machine Learning Lab, South Asian University home">
-      <img class="sau-logo" src="https://sau.int/wp-content/themes/sau/images/sau_logo.gif" alt="South Asian University logo" onerror="this.hidden=true;">
+      <img class="sau-logo" src="https://sau.int/wp-content/themes/sau/images/sau_logo.gif" alt="South Asian University logo" onerror="this.hidden=true; this.nextElementSibling.hidden=false;">
+      <span class="logo-fallback" hidden aria-hidden="true">SAU</span>
       <span class="brand-divider"></span>
       <span class="lab-name"><strong>Machine Learning Lab</strong><small>South Asian University</small></span>
     </a>
@@ -24,11 +25,10 @@
       <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="main-menu">☰ <span>Menu</span></button>
     </div>
     <ul class="nav-links" id="main-menu">
-      <li><a href="index.html" class="active" aria-current="page">Home</a></li>
-      <li><a href="/about.html">About</a></li>
-      <li><a href="/services.html">Services</a></li>
-      <li><a href="/contact.html">Contact</a></li>
-
+      <li><a href="/sau-ml-lab/" class="active" aria-current="page">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="services.html">Services</a></li>
+      <li><a href="contact.html">Contact</a></li>
     </ul>
   </nav>
 </header>
@@ -50,7 +50,7 @@
     <article class="card"><div class="card-icon">↗</div><h3>Connect</h3><p>Reach the lab for collaboration and enquiries.</p></article>
   </div>
 </section>
-<section class="callout"><div><p class="eyebrow">HAVE A QUESTION?</p><h2>Let's connect and learn together.</h2></div><a class="button button-light" href="contact.html">Contact the lab →</a></section>
+<section class="callout"><div><p class="eyebrow">HAVE A QUESTION?</p><h2>Let's connect and learn together.</h2></div><a class="button button-light" href="contact.html">Contact Lab</a></section>
 </main>
 <footer class="site-footer">
   <div class="footer-main">
