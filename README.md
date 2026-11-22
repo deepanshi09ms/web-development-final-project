@@ -45,3 +45,4 @@ The contact form is a front-end demonstration only. It validates the information
 The header uses the South Asian University logo served from the University's official media assets (`https://sau.int/wp-content/themes/sau/images/sau_logo.gif`). The design uses an SAU-inspired blue palette and links back to the official university website. An accessible text fallback appears if the hosted logo cannot load.
 
 This is a student-developed academic microsite and is not the official SAU website. University contact/address information is presented as general university information, not as a direct lab contact.
+
